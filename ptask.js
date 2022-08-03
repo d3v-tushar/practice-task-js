@@ -1,4 +1,25 @@
-// আসকে আমার মন ভালো নেই -- এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও। 
+//২৪. তোমার কাছে: ৮০০০০ টাকার বেশি হলে তুমি mac কিনবে, ৬০ টাকার বেশি হলে gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে। 
+var money = 100000;
+if(money >= 80000){
+    console.log('I will buy a Mac!! Yeeey');
+}
+else if(money >= 60000){
+    console.log('I will buy a gaming laptop :D');
+}
+else if(money >= 40000){
+    console.log('I will buy Lenovo Yoga :)')
+}
+else if(money >= 20000){
+    console.log('I have to buy a secound hand laptop :/')
+}
+else{
+    console.log('I have to work with Mobile :( ')
+}
+
+
+
+
+//২৫. আসকে আমার মন ভালো নেই -- এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও। 
 var dialouge = "Aske amar mon valo nei"
 for(var i = 0; i < 39; i++){
     console.log(dialouge);
