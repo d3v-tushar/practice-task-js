@@ -103,9 +103,9 @@ for(let i = 1; i <= 10; i++){
 
 
 // ৪. একটা ফাংশন লিখবা যেটাকে তুমি কোন সংখ্যাকে ইনপুট হিসেবে দিলে সে সেই সংখ্যার square করে সেই square কে রিটার্ন করবে।
-let squareNumber = 6;
+let squareNumber = 5;
 function square(){
-    let squareNum = squareNumber * squareNumber;
+    let squareNum = Math.pow(squareNumber, 2);
     return squareNum;
 }
 console.log('Square Value is :', square())
